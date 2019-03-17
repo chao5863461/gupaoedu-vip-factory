@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gupao-vip-delegate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gupao-vip-delegate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gupao-vip-delegate.war">
+      <element id="artifact" artifact-name="gupao-vip-delegate:war exploded" />
+    </root>
+  </artifact>
+</component>
